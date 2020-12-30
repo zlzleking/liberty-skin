@@ -572,11 +572,6 @@ strike {
 	padding-bottom: 1rem;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-header {
-	border: 1px solid #e1e8ed;
-	border-radius: 0.35rem 0.35rem 0 0;
-}
-
 .Liberty .content-wrapper .liberty-content .liberty-content-header .title a {
 	color: black;
 	text-decoration: none;
@@ -648,9 +643,6 @@ strike {
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-main {
-	border-left: 1px solid #e1e8ed;
-	border-right: 1px solid #e1e8ed;
-	background-color: #fff;
 	padding: 1rem;
 	overflow: hidden;
 	line-height: 1.6rem;
