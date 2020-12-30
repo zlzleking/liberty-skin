@@ -8,7 +8,7 @@
 				<?php get_template_part('template/sidebar'); ?>
 				<div class="container-fluid liberty-content">
 					<div class="liberty-content-header">
-						<div class="alert alert-dismissible fade in alert-info liberty-notice" role="alert" style="margin-left:3rem;margin-right:3rem;">
+						<div class="alert alert-dismissible fade in alert-info liberty-notice" role="alert" style="margin-left:2.5rem;margin-right:2.5rem;">
 							<?php if (is_category()) {
 								echo (category_description());
 							} else {
