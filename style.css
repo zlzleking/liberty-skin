@@ -689,7 +689,7 @@ h6 {
 	transition-duration: 300ms;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-main .content-loop .content-loop-page {
+.Liberty .content-wrapper .liberty-content .liberty-content-main .liberty-content-loop .content-loop-page {
 	padding-left: 2rem;
 	padding-right: 2rem;
 }
@@ -724,13 +724,14 @@ h6 {
 
 /* Footer */
 footer {
-	padding: 2.5rem 1rem;
+	padding: 1rem 2.5rem;
 }
 
 .Liberty .content-wrapper .liberty-footer {
 	border: 1px solid #e1e8ed;
 	border-radius: 0 0 0.35rem 0.35rem;
 	background-color: #f5f8fa;
+	padding:1.5rem;
 }
 
 .Liberty .content-wrapper .liberty-footer ul {
