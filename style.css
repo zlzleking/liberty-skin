@@ -723,10 +723,14 @@ h6 {
 /* Content End */
 
 /* Footer */
+footer {
+	padding: 2.5rem 1rem;
+}
+
 .Liberty .content-wrapper .liberty-footer {
 	border: 1px solid #e1e8ed;
 	border-radius: 0 0 0.35rem 0.35rem;
-	padding: 2rem 1rem;
+	background-color: #f5f8fa;
 }
 
 .Liberty .content-wrapper .liberty-footer ul {
