@@ -26,7 +26,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="liberty-content-main liberty-conetnt-main-single">
+					<div class="liberty-content-main liberty-content-main-single">
 						<div class="reading_time">
 							<span class="reading-time-number"><i class="fas fa-book-reader"></i>  읽는데 <?php echo do_shortcode('[rt_reading_time]'); ?>분 정도 걸려요</span>
 						</div>
