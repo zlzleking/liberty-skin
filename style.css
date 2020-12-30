@@ -742,12 +742,18 @@ footer {
 	padding: 1rem 2.5rem;
 }
 
+footer-single {
+	padding: 0;
+}
+
 .Liberty .content-wrapper .liberty-footer {
 	border: 1px solid #e1e8ed;
 	border-radius: 0 0 0.35rem 0.35rem;
 	background-color: #f5f8fa;
 	padding:1.5rem;
 }
+
+
 
 .Liberty .content-wrapper .liberty-footer ul {
 	list-style-type: none;
