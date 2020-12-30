@@ -7,7 +7,7 @@
 			<div class="content-wrapper">
 				<?php get_template_part('template/sidebar'); ?>
 				<div class="container-fluid liberty-content">
-					<div class="liberty-content-header">
+					<div class="liberty-content-header liberty-conetnt-header-single">
 						<div class="alert alert-dismissible fade in alert-info liberty-notice" role="alert">
 							<?php bloginfo('description'); ?>
 						</div>
@@ -26,7 +26,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="liberty-content-main">
+					<div class="liberty-content-main liberty-conetnt-main-single">
 						<div class="reading_time">
 							<span class="reading-time-number"><i class="fas fa-book-reader"></i>  읽는데 <?php echo do_shortcode('[rt_reading_time]'); ?>분 정도 걸려요</span>
 						</div>

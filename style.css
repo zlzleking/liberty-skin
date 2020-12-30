@@ -577,6 +577,11 @@ strike {
 	border-radius: 0.35rem 0.35rem 0 0;
 }
 
+.Liberty .content-wrapper .liberty-content .liberty-content-header-single {
+	border: 1px solid #e1e8ed;
+	background-color: #f5f8fa;
+}
+
 .Liberty .content-wrapper .liberty-content .liberty-content-header .title a {
 	color: black;
 	text-decoration: none;
@@ -662,6 +667,11 @@ strike {
 	border: 2px solid #f5f5f5;
 	padding: 2rem;
 	border-radius: 0.5rem;
+}
+
+.Liberty .content-wrapper .liberty-content .liberty-content-main-single {
+	background-color: #fff;
+	border: 2px solid #f5f5f5;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-loop .content-loop h1,
