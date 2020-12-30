@@ -7,7 +7,7 @@
 			<div class="content-wrapper">
 				<?php get_template_part('template/sidebar'); ?>
 				<div class="container-fluid liberty-content">
-					<div class="liberty-content-header liberty-conetnt-header-single">
+					<div class="liberty-content-header liberty-content-header-single">
 						<div class="alert alert-dismissible fade in alert-info liberty-notice" role="alert">
 							<?php bloginfo('description'); ?>
 						</div>
