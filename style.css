@@ -196,6 +196,7 @@ strike {
 .Liberty .content-wrapper {
 	max-width: 1200px;
 	margin: 0 auto;
+	padding-top:0.1rem;
 }
 
 /* Content width, alian center End */
@@ -419,6 +420,7 @@ strike {
 	float: right;
 	width: 15rem;
 	position: relative;
+	top:2rem;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .live-recent-wrapper {
@@ -573,7 +575,6 @@ strike {
 .Liberty .content-wrapper .liberty-content .liberty-content-header {
 	border: 1px solid #e1e8ed;
 	border-radius: 0.35rem 0.35rem 0 0;
-	background-color: #f5f8fa;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .title a {
@@ -588,6 +589,7 @@ strike {
 .Liberty .content-wrapper .liberty-content .liberty-content-header .liberty-notice {
 	margin: 1rem;
 	text-align: center;
+	border-radius:0.5rem;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .liberty-notice ul {
@@ -654,16 +656,12 @@ strike {
 	line-height: 1.6rem;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-loop {
-	background-color: #f5f8fa;
-}
-
 .Liberty .content-wrapper .liberty-content .liberty-content-main .content-loop {
 	margin-bottom: 3rem;
 	background-color: #fff;
 	border: 2px solid #f5f5f5;
 	padding: 2rem;
-	border-radius: 2rem;
+	border-radius: 0.5rem;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-loop .content-loop h1,
@@ -736,8 +734,7 @@ h6 {
 .Liberty .content-wrapper .liberty-footer {
 	border: 1px solid #e1e8ed;
 	border-radius: 0 0 0.35rem 0.35rem;
-	background-color: #f5f8fa;
-	padding: 1rem;
+	padding: 2rem 1rem;
 }
 
 .Liberty .content-wrapper .liberty-footer ul {
