@@ -1,4 +1,6 @@
-<footer <?php if (is_single()) { ?>class='footer-single'<?php}?>>
+<footer <?php if (is_single()) { ?>
+    class='footer-single'
+    <?php}?> >
     <div class="liberty-footer <?php if (is_single()) { ?>liberty-footer-single<?php}?>">
         <?php if (is_single() && (comments_open() || get_comments_number())) { ?>
             <div class="liberty-comment">
