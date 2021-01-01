@@ -17,6 +17,11 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 	outline: none;
 }
 
+a:focus {
+	outline:none;
+}
+
+
 input:hover,
 button:hover,
 select:hover {
@@ -527,6 +532,10 @@ strike {
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-content .recent-post-list .recent-item .new {
 	font-size: 0.80rem;
 	color: #b73333;
+}
+
+.Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-content #recent-comment-list {
+	display:none;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-footer {

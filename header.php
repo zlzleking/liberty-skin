@@ -14,14 +14,15 @@
     </title>
     <?php $theme_uri = get_stylesheet_directory_uri(); ?>
     <link rel="stylesheet" href="<?php echo ($theme_uri); ?>/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-    <link rel="stylesheet" href="<?php echo ($theme_uri); ?>/mobile.css">
-    <link rel="stylesheet" href="<?php echo ($theme_uri); ?>/article.css">
+    <link rel="stylesheet" href="<?php echo ($theme_uri); ?>/css/main.css">
+    <link rel="stylesheet" href="<?php echo ($theme_uri); ?>/css/mobile.css">
+    <link rel="stylesheet" href="<?php echo ($theme_uri); ?>/css/article.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
     <script src="<?php echo ($theme_uri); ?>/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<?php echo ($theme_uri); ?>/js/recent-post.js"></script>
     <script src="<?php echo ($theme_uri); ?>/js/share-button.js"></script>
     <script src="<?php echo ($theme_uri); ?>/js/share.js"></script>
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
