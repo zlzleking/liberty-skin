@@ -51,7 +51,7 @@
 									<hr>
 									<div style="clear:both"></div>
 									<?php
-									if ($post_count == 0 && is_home()) : the_content();
+									if ($post_count == 0 && is_sticky() : the_content();
 									else :
 										the_excerpt(); ?>
 										<!--
