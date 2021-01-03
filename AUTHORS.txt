@@ -11,3 +11,4 @@ nuxe
 Jack Phoenix 
 
 Port and custom by Zlzleking
+Special thanks to asterisk_yg (https://asterisk.moe)
