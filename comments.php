@@ -31,7 +31,7 @@
             'title_reply' => '댓글 남기기',
             'title_reply_before' => '<span id="liberty-comment-reply">',
             'title_reply_after' => '</span>',
-            'comment_field' => '<p class="liberty-comment-field"><label for="comment">내용</label><br><textarea id="comment"></textarea></p>',
+            'comment_field' => '<p class="liberty-comment-field"><label for="comment">내용</label><br><textarea id="comment" name="comment"></textarea></p>',
             'comment_notes_before' => '',
             'comment_notes_after' => ''
         );
