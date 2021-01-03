@@ -10,31 +10,34 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 
 /* Main Color #4188f1 */
+
+
 /* Border Color #e1e8ed */
 
+
 /* HTML Tag */
+
 * {
-	outline: none;
+    outline: none;
 }
 
 a:focus {
-	outline:none;
+    outline: none;
 }
-
 
 input:hover,
 button:hover,
 select:hover {
-	transition: 0.3s;
+    transition: 0.3s;
 }
 
 html {
-	font-size: 15px;
+    font-size: 15px;
 }
 
 body {
-	font-size: 1.1rem;
-	background-color: #f5f5f5 !important;
+    font-size: 1.1rem;
+    background-color: #f5f5f5 !important;
 }
 
 body,
@@ -44,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0;
+    margin: 0;
 }
 
 .Liberty .nav-wrapper,
@@ -58,617 +61,631 @@ h6 {
 .Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .tools-btn:hover,
 .Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .tools-btn:focus,
 .Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .tools-btn:active {
-	background-color: #3399FF;
+    background-color: #3399FF;
 }
 
 .Liberty .nav-wrapper .navbar .form-inline .btn:hover,
 .Liberty .nav-wrapper .navbar .form-inline .btn:focus {
-	border-color: #e1e8ed;
+    border-color: #e1e8ed;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-header .nav .nav-item {
-	width: 7.5rem;
-	border: 1px solid #e1e8ed;
-	border-top-left-radius: 0.35rem;
-	background-color: #f5f8fa;
+    width: 7.5rem;
+    border: 1px solid #e1e8ed;
+    border-top-left-radius: 0.35rem;
+    background-color: #f5f8fa;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-header .nav .nav-item .nav-link {
-	border: 0;
-	border-radius: 0;
-	border-top-left-radius: 0px;
-	border-top-left-radius: 0.35rem;
-	text-align: center;
-	padding-top: 0.6rem;
-	padding-bottom: 0.6rem;
-	color: #6e7478;
-	position: relative;
+    border: 0;
+    border-radius: 0;
+    border-top-left-radius: 0px;
+    border-top-left-radius: 0.35rem;
+    text-align: center;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    color: #6e7478;
+    position: relative;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-header .nav .nav-item .nav-link.active::before,
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-header .nav .nav-item .nav-link:hover::before,
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-header .nav .nav-item .nav-link:focus::before,
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-header .nav .nav-item .nav-link:active::before {
-	border-bottom: 2px solid #3399FF;
+    border-bottom: 2px solid #3399FF;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-footer .label:hover,
 .Liberty .nav-wrapper .navbar .nav-item .nav-link:hover,
 .Liberty .nav-wrapper .navbar .nav-item .nav-link:focus,
 .dropdown-menu .dropdown-item:hover {
-	background-color: #3399FF;
+    background-color: #3399FF;
 }
 
-
-
 h1 {
-	font-size: 2.0rem;
+    font-size: 2.0rem;
 }
 
 h2 {
-	font-size: 1.8rem;
+    font-size: 1.8rem;
 }
 
 h3 {
-	font-size: 1.6rem;
+    font-size: 1.6rem;
 }
 
 h4 {
-	font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 h5 {
-	font-size: 1.3rem;
+    font-size: 1.3rem;
 }
 
 h6 {
-	font-size: 1.1rem;
+    font-size: 1.1rem;
 }
 
 ol,
 ul,
 p {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 p {
-	margin-bottom: 0.8rem;
+    margin-bottom: 0.8rem;
 }
 
 p {
-	overflow-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 ul {
-	list-style-image: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20width%3D%225%22%20height%3D%2213%22%3E%0A%3Ccircle%20cx%3D%222.5%22%20cy%3D%229.5%22%20r%3D%222.5%22%20fill%3D%22%23373a3c%22%2F%3E%0A%3C%2Fsvg%3E%0A );
+    list-style-image: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20width%3D%225%22%20height%3D%2213%22%3E%0A%3Ccircle%20cx%3D%222.5%22%20cy%3D%229.5%22%20r%3D%222.5%22%20fill%3D%22%23373a3c%22%2F%3E%0A%3C%2Fsvg%3E%0A );
 }
 
 img {
-	max-width: 100%;
-	height: auto;
-	margin: 0;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
 }
 
 th[rowspan],
 td[rowspan] {
-	position: relative;
+    position: relative;
 }
 
 th[rowspan]:after,
 td[rowspan]:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	right: -1px;
-	width: 1px;
-	height: 100%;
-	/*background: #e0e0e0;*/
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -1px;
+    width: 1px;
+    height: 100%;
+    /*background: #e0e0e0;*/
 }
 
 hr {
-	border-top: 1px solid #e1e8ed;
+    border-top: 1px solid #e1e8ed;
 }
-
 
 html input[type=button]:hover,
 html input[type=submit]:hover,
 button:hover {
-	background-color: #449d44;
+    background-color: #449d44;
 }
 
 label {
-	vertical-align: middle;
-	word-break: keep-all;
+    vertical-align: middle;
+    word-break: keep-all;
 }
 
 del,
 s,
 strike {
-	color: #808080;
+    color: #808080;
 }
+
 
 /* HTML Tag End */
 
+
 /* Background Color */
+
 .Liberty {
-	background-color: #f5f5f5;
+    background-color: #f5f5f5;
 }
+
 
 /* Background Color End*/
 
+
 /* Content width, alian center */
+
 .Liberty .nav-wrapper .navbar,
 .Liberty .content-wrapper {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding-top:0.1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 0.1rem;
 }
+
 
 /* Content width, alian center End */
 
+
 /* Nav */
+
 .Liberty .nav-wrapper {
-	min-height: 2.8rem;
-	z-index: 1001;
-	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    min-height: 2.8rem;
+    z-index: 1001;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .Liberty .nav-wrapper .navbar {
-	padding: 0 1rem;
-	border: 0;
-	border-radius: 0;
+    padding: 0 1rem;
+    border: 0;
+    border-radius: 0;
 }
 
 .Liberty .nav-wrapper #brand-wrapper {
-	display: table;
-	vertical-align: middle;
+    display: table;
+    vertical-align: middle;
 }
 
 .Liberty .nav-wrapper #brand-wrapper div {
-	float: none;
-	display: table-cell;
+    float: none;
+    display: table-cell;
 }
 
 .Liberty .nav-wrapper .navbar .navbar-brand {
-	display: table-cell;
-	height: 2.8rem;
-	min-width: 6.6rem;
-	padding: 0;
-	margin: 0;
-	float: none;
-	text-decoration: none;
-	vertical-align: middle;
-	font-family: "나눔스퀘어, IBM Plex Sans KR, Apple SD Gothic Neo', 'Spoqa Han Sans', 'SpoqaHanSans', 'Noto Sans CJK KR', 'Malgun Gothic', '맑은 고딕', sans-serif";
+    display: table-cell;
+    height: 2.8rem;
+    min-width: 6.6rem;
+    padding: 0;
+    margin: 0;
+    float: none;
+    text-decoration: none;
+    vertical-align: middle;
+    font-family: "나눔스퀘어, IBM Plex Sans KR, Apple SD Gothic Neo', 'Spoqa Han Sans', 'SpoqaHanSans', 'Noto Sans CJK KR', 'Malgun Gothic', '맑은 고딕', sans-serif";
 }
 
 .Liberty .nav-wrapper .navbar .navbar-brand span {
-	font-size: 1.6rem;
-	color: white;
+    font-size: 1.6rem;
+    color: white;
 }
 
 .Liberty .nav-wrapper .navbar .menu {
-	margin: 0;
-	margin-left: 1rem;
-	list-style: none;
-	float: left;
+    margin: 0;
+    margin-left: 1rem;
+    list-style: none;
+    float: left;
 }
 
 .Liberty .nav-wrapper .navbar .menu ul {
-	list-style: none;
+    list-style: none;
 }
 
 .Liberty .nav-wrapper .navbar .menu ul li {
-	color: #fff;
-	font-size: 1.2rem;
-	line-height: 1.4rem;
-	float: left;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    float: left;
 }
 
 .Liberty .nav-wrapper .navbar .menu ul li a {
-	padding: 0.7rem 0.8rem;
-	color: #fff;
-	text-decoration: none;
-
+    padding: 0.7rem 0.8rem;
+    color: #fff;
+    text-decoration: none;
 }
 
 .Liberty .nav-wrapper .navbar .menu-item {
-	margin: 0;
-	float: left;
-	list-style: none;
-	height: 100%;
+    margin: 0;
+    float: left;
+    list-style: none;
+    height: 100%;
 }
 
 .Liberty .nav-wrapper .navbar .menu-item .fa,
 .Liberty .nav-wrapper .navbar .menu-item .fas,
 .Liberty .nav-wrapper .navbar .menu-item .far {
-	margin-right: 0.5rem;
-	font-size: 1rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
 }
 
 .Liberty .nav-wrapper .navbar .menu-item a {
-	color: #fff;
-	font-size: 1.2rem;
-	padding: 0.7rem 0.8rem;
-	line-height: 1.4rem;
-	display: inline-block;
-	text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.7rem 0.8rem;
+    line-height: 1.4rem;
+    display: inline-block;
+    text-decoration: none;
 }
 
 .Liberty .nav-wrapper .navbar .menu-item a:hover,
 .Liberty .nav-wrapper .navbar .menu-item a:focus {
-	background-color: #5aaafa;
-	transition: 0.3s;
+    background-color: #5aaafa;
+    transition: 0.3s;
 }
 
 .Liberty .nav-wrapper .navbar .menu-item .dropdown-menu {
-	margin-top: 0;
-	border-top-left-radius: 0;
-	border-top-right-radius: 0;
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 .Liberty .nav-wrapper .navbar .menu-item .dropdown-toggle::after {
-	margin-right: 0;
-	margin-left: 0.35rem;
+    margin-right: 0;
+    margin-left: 0.35rem;
 }
 
 .Liberty .nav-wrapper .navbar .form-inline {
-	padding: 0.4rem 0;
-	float: right;
+    padding: 0.4rem 0;
+    float: right;
 }
 
 .Liberty .nav-wrapper .navbar .form-inline .form-control {
-	font-size: 0.8rem;
-	height: 2rem;
-	width: 10.8rem;
-	padding: 0.2rem 0.4rem;
-	border-color: #ccc;
-	border-radius: 0;
-	border-top-left-radius: 0.35rem;
-	border-bottom-left-radius: 0.35rem;
+    font-size: 0.8rem;
+    height: 2rem;
+    width: 10.8rem;
+    padding: 0.2rem 0.4rem;
+    border-color: #ccc;
+    border-radius: 0;
+    border-top-left-radius: 0.35rem;
+    border-bottom-left-radius: 0.35rem;
 }
 
 .Liberty .nav-wrapper .navbar .form-inline .btn {
-	height: 2rem;
-	color: #4f5b63;
-	padding: 0.2rem 0.4rem;
-	line-height: 22px;
+    height: 2rem;
+    color: #4f5b63;
+    padding: 0.2rem 0.4rem;
+    line-height: 22px;
 }
 
 .Liberty .nav-wrapper .navbar .form-inline .btn:hover,
 .Liberty .nav-wrapper .navbar .form-inline .btn:focus {
-	color: #fff;
-	outline: 0;
+    color: #fff;
+    outline: 0;
 }
 
 .Liberty .nav-wrapper .navbar .form-inline .btn .fa,
 .Liberty .nav-wrapper .navbar .form-inline .btn .fas,
 .Liberty .nav-wrapper .navbar .form-inline .btn .far {
-	width: 0.9rem;
+    width: 0.9rem;
 }
 
 .Liberty .nav-wrapper .navbar .navbar-login {
-	float: right;
-	padding-left: 0.8rem;
+    float: right;
+    padding-left: 0.8rem;
 }
 
 .Liberty .nav-wrapper .navbar .navbar-login .fa,
 .Liberty .nav-wrapper .navbar .navbar-login .fas,
 .Liberty .nav-wrapper .navbar .navbar-login .far {
-	color: #fff;
-	padding: 0.7rem 0;
-	font-size: 1.5rem;
-	line-height: 1.4rem;
+    color: #fff;
+    padding: 0.7rem 0;
+    font-size: 1.5rem;
+    line-height: 1.4rem;
 }
 
 .Liberty .nav-wrapper .navbar .navbar-login .login-menu {
-	float: left;
-	cursor: pointer;
-	padding: 0.4rem 0;
+    float: left;
+    cursor: pointer;
+    padding: 0.4rem 0;
 }
 
 .Liberty .nav-wrapper .navbar .navbar-login .login-menu>a:after {
-	display: none;
+    display: none;
 }
 
 .Liberty .nav-wrapper .navbar .navbar-login .profile-img {
-	width: 2rem;
-	height: 2rem;
-	border-radius: 0.35rem;
-	margin: 0;
-	border: 1px solid #e1e8ed;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.35rem;
+    margin: 0;
+    border: 1px solid #e1e8ed;
 }
 
 .Liberty .nav-wrapper .navbar .navbar-login .logout-btn {
-	margin-left: 0.8rem;
-	display: inline-block;
+    margin-left: 0.8rem;
+    display: inline-block;
 }
 
 .Liberty .nav-wrapper .navbar .navbar-login .login-dropdown-menu {
-	top: 120%;
-	right: -1rem;
-	z-index: 1002;
+    top: 120%;
+    right: -1rem;
+    z-index: 1002;
 }
 
 .Liberty .nav-wrapper .navbar .navbar-login .login-dropdown-menu:before,
 .Liberty .nav-wrapper .navbar .navbar-login .login-dropdown-menu:after {
-	bottom: 100%;
-	border: solid transparent;
-	content: ' ';
-	position: absolute;
-	left: 0;
-	right: auto;
+    bottom: 100%;
+    border: solid transparent;
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: auto;
 }
 
 .Liberty .nav-wrapper .navbar .navbar-login .login-dropdown-menu:before {
-	border-bottom-color: #e1e8ed;
-	border-width: 0.8rem;
-	left: auto;
-	right: 1.15rem;
+    border-bottom-color: #e1e8ed;
+    border-width: 0.8rem;
+    left: auto;
+    right: 1.15rem;
 }
 
 .Liberty .nav-wrapper .navbar .navbar-login .login-dropdown-menu:after {
-	border-bottom-color: #fff;
-	border-width: 0.78rem;
-	left: auto;
-	right: 1.15rem;
+    border-bottom-color: #fff;
+    border-width: 0.78rem;
+    left: auto;
+    right: 1.15rem;
 }
 
 .dropdown-submenu {
-	position: relative;
-	min-width: 158px;
+    position: relative;
+    min-width: 158px;
 }
+
 
 /* Nav End */
 
+
 /* Right menu */
+
 .Liberty .content-wrapper .liberty-sidebar {
-	float: right;
-	width: 15rem;
-	position: relative;
-	top:1rem;
+    float: right;
+    width: 15rem;
+    position: relative;
+    top: 1rem;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper {
-	z-index: 1;
+    z-index: 1;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post {
-	width: 15rem;
+    width: 15rem;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-header .nav {
-	border: 0;
+    border: 0;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-header .nav .nav-item {
-	width: 50%;
-	border: 1px solid #e1e8ed;
-	border-top-left-radius: 0.35rem;
-	background-color: #f5f8fa;
-	list-style: none;
-	float: left;
+    width: 50%;
+    border: 1px solid #e1e8ed;
+    border-top-left-radius: 0.35rem;
+    background-color: #f5f8fa;
+    list-style: none;
+    float: left;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-header .nav .nav-item+.nav-item {
-	margin-left: 0;
-	border-left: 0;
-	border-top-left-radius: 0;
-	border-top-right-radius: 0.35rem;
+    margin-left: 0;
+    border-left: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0.35rem;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-header .nav .nav-item .nav-link {
-	border: 0;
-	border-radius: 0;
-	border-top-left-radius: 0.35rem;
-	text-align: center;
-	padding-top: 0.6rem;
-	padding-bottom: 0.6rem;
-	color: #6e7478;
-	position: relative;
+    border: 0;
+    border-radius: 0;
+    border-top-left-radius: 0.35rem;
+    text-align: center;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    color: #6e7478;
+    position: relative;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-header .nav .nav-item+.menu-item .nav-link {
-	border-top-left-radius: 0;
-	border-top-right-radius: 0.35rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0.35rem;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-header .nav .nav-item .nav-link.active,
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-header .nav .nav-item .nav-link:hover,
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-header .nav .nav-item .nav-link:focus,
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-header .nav .nav-item .nav-link:active {
-	color: #373a3c;
-	background-color: #fff;
+    color: #373a3c;
+    background-color: #fff;
 }
+
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-header .nav .nav-item .nav-link.active::before,
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-header .nav .nav-item .nav-link:hover::before,
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-header .nav .nav-item .nav-link:focus::before,
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-header .nav .nav-item .nav-link:active::before {
-	position: absolute;
-	left: -1px;
-	bottom: -1px;
-	content: ' ';
-	width: 7.5rem;
-	display: block;
+    position: absolute;
+    left: -1px;
+    bottom: -1px;
+    content: ' ';
+    width: 7.5rem;
+    display: block;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post #recent-post-list {
-	background-color: #fff;
-	border: 1px solid #e1e8ed;
-	border-top: 0;
-	z-index: 1;
+    background-color: #fff;
+    border: 1px solid #e1e8ed;
+    border-top: 0;
+    z-index: 1;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-content {
-	background-color: #fff;
-	border: 1px solid #e1e8ed;
-	border-top: 0;
-	z-index: 1;
+    background-color: #fff;
+    border: 1px solid #e1e8ed;
+    border-top: 0;
+    z-index: 1;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-content .recent-post-list {
-	list-style: none;
+    list-style: none;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-content .recent-post-list li {
-	border-bottom: 1px solid #e1e8ed;
-	padding: 0.2rem 0.6rem;
+    border-bottom: 1px solid #e1e8ed;
+    padding: 0.2rem 0.6rem;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-content .recent-post-list li:last-child {
-	border-bottom: none;
+    border-bottom: none;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-content .recent-post-list .recent-item {
-	font-size: 0.80rem;
-	color: #373a3c;
+    font-size: 0.80rem;
+    color: #373a3c;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-content .recent-post-list .recent-item a {
-	font-size: 0.80rem;
-	color: #373a3c;
+    font-size: 0.80rem;
+    color: #373a3c;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-content .recent-post-list .recent-item .new {
-	font-size: 0.80rem;
-	color: #b73333;
+    font-size: 0.80rem;
+    color: #b73333;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-content #recent-comment-list {
-	display:none;
+    display: none;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-footer {
-	background-color: #f5f8fa;
-	border: 1px solid #e1e8ed;
-	border-top: 0;
-	border-bottom-left-radius: 0.35rem;
-	border-bottom-right-radius: 0.35rem;
-	text-align: right;
-	padding: 0.4rem 0.6rem;
+    background-color: #f5f8fa;
+    border: 1px solid #e1e8ed;
+    border-top: 0;
+    border-bottom-left-radius: 0.35rem;
+    border-bottom-right-radius: 0.35rem;
+    text-align: right;
+    padding: 0.4rem 0.6rem;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-footer .label {
-	padding: 0.4rem;
-	font-size: 0.8rem;
-	font-weight: 400;
+    padding: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 400;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .recent-post-wrapper .recent-post .recent-post-footer .label:hover {
-	transition: 0.3s;
+    transition: 0.3s;
 }
 
 
 /* Right menu End */
 
+
 /* Content */
+
 .Liberty .content-wrapper {
-	margin-top: 3.33rem;
-	z-index: -1;
+    margin-top: 3.33rem;
+    z-index: -1;
 }
 
 .Liberty .content-wrapper .liberty-content {
-	margin-right: 16rem;
-	padding: 0;
-	padding-bottom: 1rem;
+    margin-right: 16rem;
+    padding: 0;
+    padding-bottom: 1rem;
 }
+
+
 /*
 .Liberty .content-wrapper .liberty-content .liberty-content-header {
 
 }
 */
+
 .Liberty .content-wrapper .liberty-content .liberty-content-header-single {
-	border: 1px solid #e1e8ed;
-	background-color: #f5f8fa;
+    border: 1px solid #e1e8ed;
+    background-color: #f5f8fa;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .title a {
-	color: black;
-	text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .title h1 {
-	font-size: 2rem;
+    font-size: 2rem;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .liberty-notice {
-	margin: 1rem;
-	text-align: center;
-	border-radius:0.5rem;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .liberty-notice ul {
-	list-style-image: none;
-	list-style-type: none;
-	text-align: center;
-	line-height: 1.8rem;
+    list-style-image: none;
+    list-style-type: none;
+    text-align: center;
+    line-height: 1.8rem;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools {
-	float: right;
-	padding-right: 1rem;
-	padding-top: 1rem;
+    float: right;
+    padding-right: 1rem;
+    padding-top: 1rem;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .tools-btn {
-	font-size: 0.9rem;
-	padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .dropdown-toggle {
-	padding: 0.4rem 0.3rem;
+    padding: 0.4rem 0.3rem;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .tools-btn:hover,
 .Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .tools-btn:focus,
 .Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .tools-btn:active {
-	color: #fff;
-	transition: 0.3s;
-	outline: 0;
-	border-color: #e1e8ed;
+    color: #fff;
+    transition: 0.3s;
+    outline: 0;
+    border-color: #e1e8ed;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .dropdown-menu {
-	top: 92%;
+    top: 92%;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .title {
-	padding: 1rem;
+    padding: 1rem;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .contentSub {
-	margin-top: -0.5rem;
-	padding: 1rem;
-	padding-top: 0;
+    margin-top: -0.5rem;
+    padding: 1rem;
+    padding-top: 0;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .title>h1 {
-	color: #000;
-	font-weight: bold;
+    color: #000;
+    font-weight: bold;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .header-ads {
-	margin: 1rem;
-	margin-bottom: 0;
+    margin: 1rem;
+    margin-bottom: 0;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-main {
-	padding: 1rem;
-	overflow: hidden;
-	line-height: 1.6rem;
+    padding: 1rem;
+    overflow: hidden;
+    line-height: 1.6rem;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-main .content-loop {
-	margin-bottom: 3rem;
-	background-color: #fff;
-	border: 2px solid #f5f5f5;
-	padding: 2rem;
-	border-radius: 0.5rem;
+    margin-bottom: 3rem;
+    background-color: #fff;
+    border: 2px solid #f5f5f5;
+    padding: 2rem;
+    border-radius: 0.5rem;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-main-single {
-	background-color: #fff;
-	border: 2px solid #f5f5f5;
+    background-color: #fff;
+    border: 2px solid #f5f5f5;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-loop .content-loop h1,
@@ -677,203 +694,207 @@ h3,
 h4,
 h5,
 h6 {
-	margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-loop .content-loop p {
-	margin-bottom: 1rem;
-	line-height: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-main .content-loop h2 {
-	display: inline-block;
-	margin-right: 1.3rem;
+    display: inline-block;
+    margin-right: 1.3rem;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-main .content-loop .written_time {
-	font-size: 0.8rem;
-	float: right;
+    font-size: 0.8rem;
+    float: right;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-main .content-loop .main_posttitle a {
-	color: #39f;
+    color: #39f;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-main .content-loop .main_posttitle a:hover {
-	color: #5aaafa;
-	transition-duration: 300ms;
+    color: #5aaafa;
+    transition-duration: 300ms;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-main .content-loop-page {
-	padding-left: 2rem;
-	padding-right: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-loop .content-loop-page .page-button {
-	padding: 0.5rem;
-	color: white;
-	border-radius: 0.5rem;
-	background-color: #39f;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.5rem;
+    background-color: #39f;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-loop .content-loop-page .page-button a {
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-loop .content-loop-page .page-button:hover {
-	background-color: #5aaafa;
-	transition-duration: 300ms;
-	text-decoration: none;
+    background-color: #5aaafa;
+    transition-duration: 300ms;
+    text-decoration: none;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-loop .content-loop-page .previous-page {
-	float: left;
+    float: left;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-loop .content-loop-page .next-page {
-	float: right;
+    float: right;
 }
+
 
 /* Content End */
 
+
 /* Footer */
+
 footer {
-	padding: 1rem 2.5rem;
+    padding: 1rem 2.5rem;
 }
 
 .footer-single {
-	padding: 0;
+    padding: 0;
 }
 
 .Liberty .content-wrapper .liberty-footer {
-	border: 1px solid #e1e8ed;
-	border-radius: 0 0 0.35rem 0.35rem;
-	background-color: #f5f8fa;
-	padding:1.5rem;
-}
-
-
-
-.Liberty .content-wrapper .liberty-footer ul {
-	list-style-type: none;
-	list-style-image: none;
+    border: 1px solid #e1e8ed;
+    border-radius: 0 0 0.35rem 0.35rem;
+    background-color: #f5f8fa;
+    padding: 1.5rem;
 }
 
 .Liberty .content-wrapper .liberty-footer ul {
-	margin-bottom: 0.8rem;
-	display: inline-block;
-	width: 100%;
+    list-style-type: none;
+    list-style-image: none;
+}
+
+.Liberty .content-wrapper .liberty-footer ul {
+    margin-bottom: 0.8rem;
+    display: inline-block;
+    width: 100%;
 }
 
 .Liberty .content-wrapper .liberty-footer .footer-places li {
-	text-align: left;
-	float: left;
-	margin-right: 0.8rem;
+    text-align: left;
+    float: left;
+    margin-right: 0.8rem;
 }
 
 .Liberty .content-wrapper .liberty-footer .footer-icons {
-	margin-bottom: 0;
-	display: block;
-	margin-right: 0.8rem;
-	float: left;
+    margin-bottom: 0;
+    display: block;
+    margin-right: 0.8rem;
+    float: left;
 }
 
 .Liberty .content-wrapper .liberty-footer .footer-icons li {
-	margin-right: 0.8rem;
-	float: left;
+    margin-right: 0.8rem;
+    float: left;
 }
 
 .Liberty .content-wrapper .liberty-footer #designedbylibre {
-	height: 31px;
+    height: 31px;
 }
 
 .Liberty .content-wrapper .liberty-footer #rss {
-	height: 31px;
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
-	background-color: #39f;
-	color: white;
-	margin-right: 0.2rem;
-	text-decoration: none;
+    height: 31px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: #39f;
+    color: white;
+    margin-right: 0.2rem;
+    text-decoration: none;
 }
 
 .Liberty .content-wrapper .liberty-footer #rss:hover {
-	background-color: #5aaafa;
-	transition-duration: 300ms;
+    background-color: #5aaafa;
+    transition-duration: 300ms;
 }
 
 .Liberty .content-wrapper .liberty-footer .footer-icon-text {
-	height: 31px;
-	display: table-cell;
-	vertical-align: middle;
-	text-decoration: none;
+    height: 31px;
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
 }
+
 
 /* Footer End */
 
 
 /* Bootstrap Custom */
+
 .dropdown-menu {
-	font-size: 0.95rem;
-	box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-	border-color: #e1e8ed;
+    font-size: 0.95rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    border-color: #e1e8ed;
 }
 
 .dropdown-menu .dropdown-item:hover {
-	color: #fff;
-	transition: 0.3s;
+    color: #fff;
+    transition: 0.3s;
 }
 
 .dropdown-divider {
-	border-color: #e1e8ed;
+    border-color: #e1e8ed;
 }
 
 .form-control {
-	font-size: 0.9rem;
+    font-size: 0.9rem;
 }
 
 .form-control:focus {
-	border-color: #66afe9;
-	outline: 0;
-	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
-	transition: 0.3s;
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    transition: 0.3s;
 }
 
 .btn {
-	box-shadow: none;
-	border-radius: 0.35rem;
+    box-shadow: none;
+    border-radius: 0.35rem;
 }
 
 .btn:hover {
-	transition: 0.3s;
+    transition: 0.3s;
 }
 
 .btn:active,
 .btn:focus {
-	outline: 0;
+    outline: 0;
 }
 
 .input-group-btn:last-child>.btn,
 .input-group-btn:last-child>.btn-group {
-	z-index: 3;
-	/* Firefox, IE border bug fix */
+    z-index: 3;
+    /* Firefox, IE border bug fix */
 }
 
 .close:focus,
 .close:hover {
-	transition: 0.3s;
+    transition: 0.3s;
 }
 
 caption {
-	color: #373a3c;
-	caption-side: top;
+    color: #373a3c;
+    caption-side: top;
 }
+
 
 /* Bootstrap Custom End */
 
 #shareAPIPolyfill-container button {
-	color: inherit;
-	white-space: inherit;
-	line-height: inherit;
+    color: inherit;
+    white-space: inherit;
+    line-height: inherit;
 }
